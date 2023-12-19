@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+      .container {
+        height: 400px;
+        width: 500px;
+        background-color: burlywood;
+        border-radius: 20px;
+      }
+      input {
+        height: 40px;
+        width: 200px;
+        text-align: center;
+        border-radius: 15px;
+        margin: 5px;
+        padding: 5px;
+        border: none;
+        outline: none;
+      }
+      h1 {
+        margin-bottom: 50px;
+        padding: 20px;
+      }
+      .sub {
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        border-radius: 15px;
+        margin: 5px;
+        padding: 5px;
+        border: none;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <h1>Signup</h1>
+
+        <form action="/signup" method="post">
+          <input type="text" placeholder="email" name="email" /> <br />
+          <input type="password" placeholder="password" name="password" />
+          <br />
+          <input type="submit" class="sub" />
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
